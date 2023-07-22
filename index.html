@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(3, 3, 73);
+            color: wheat;
+            font-family: 'Popinns', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(12, 12, 63);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 23px;
+
+        }
+
+
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 2rem;
+        }
+
+        nav ul li a:hover {
+            color: rgb(20, 20, 233);
+            font-size: 3rem;
+        }
+
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 110px 0;
+            align-items: centre;
+        }
+
+        .leftSection {
+            font-size: 6rem;
+            margin-left: 7cm;
+            margin-top: 3cm;
+
+        }.leftSection .btn{ font-size: 3rem;
+        background-color: rgb(84, 84, 165);
+    color: wheat;#
+border: 2px solid white;
+border-radius: 6px;
+cursor: pointer;}
+        .rightSection img {
+            width: 85%;
+            margin: -100px 0;
+
+        }
+
+        .purple {
+            color: blue
+        }
+
+        #element {
+            color: rgb(25, 25, 224);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(209, 209, 229);
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .text-grey {
+            color: grey;
+            font-size: 1.2rem;
+        }
+
+        .secondSection h1 {
+            font-size: 3rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+
+        .secondSection .verticle {
+            height: 93px;
+            width: 1px;
+            background-color: wheat;
+            margin: 0 400px;
+
+
+        }
+
+        .firstSection div {
+            width: 30%;
+        }
+
+        .image-top {
+            width: 100px;
+            position: relative;
+            top: -62px;
+            left: -45px;
+        }
+
+        .verticle-title {
+            position: relative;
+            top: 36px;
+            width: 100px;
+            font-size: 3rem;
+        }
+
+        .verticle-desc {
+            position: relative;
+            top: 41px;
+            font-size: 2.2rem;
+            color: gray;
+            width: 300px;
+        }
+
+        footer {
+            background-color: grey
+        }
+
+        footer .footer {
+            margin: 920px;
+        }
+
+        .footer {
+            display: flex;
+            padding: -22px 254px;
+            font-size: 3rem;
+            justify-content: space-evenly;
+
+
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer-first {
+            margin: 45px;
+        }
+
+        .footer-second {
+            margin: 45px;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            font-size: 3rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class=left>Sujay's Portfolio</div>
+            <div class=right>
+                <ul>
+                    <li> <a href="/">
+                            Home</a></li>
+
+                    <li> <a href="/">
+                            About</a></li>
+
+                    <li> <a href="/">
+                            Services</a></li>
+
+                    <li> <a href="/">
+                            Projects</a></li>
+
+                    <li> <a href="/">
+                            contact me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi,I am <span class="purple">Sujay</span>
+                <div>and i am a passionate</div>
+
+                <span id="element"></span>
+                <div class="buttons"><button class="btn">
+                    Download Resume
+                </button><button class="btn">Visit Github</button>
+
+
+                </div>
+
+            </div>
+            <div class="rightSection"><img src="bg.png.png"></div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">
+                what i have done so far
+            </span>
+            <h1>
+                Work Experience
+            </h1>
+            <div class="box">
+                <div class="verticle">
+                    <img class="image-top" src="1.png" alt="">
+                    <div class="verticle-title">HTML DEVELOPER (2010-2012)</div>
+                    <div class="verticle-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam enim
+                        necessitatibus soluta itaque nisi? Quam, nihil, reprehenderit eius repudiandae voluptatibus
+                    </div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="1.png" alt="">
+                    <div class="verticle-title">Node.js developer (2012-2014)</div>
+                    <div class="verticle-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam enim
+                        necessitatibus soluta itaque nisi? Quam, nihil, reprehenderit eius repudiandae voluptatibus
+                    </div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="1.png" alt="">
+                    <div class="verticle-title">HTML DEVELOPER (2010-2012)</div>
+                    <div class="verticle-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam enim
+                        necessitatibus soluta itaque nisi? Quam, nihil, reprehenderit eius repudiandae voluptatibus
+                    </div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="1.png" alt="">
+                    <div class="verticle-title">HTML DEVELOPER (2010-2012)</div>
+                    <div class="verticle-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam enim
+                        necessitatibus soluta itaque nisi? Quam, nihil, reprehenderit eius repudiandae voluptatibus
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h1>
+                    Harry's Developer Portfolio
+                </h1>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footer-forth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-rights">
+            Copyright &#169; www.harryportfolio.com | All rights reserverd
+
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Web designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
